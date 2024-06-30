@@ -1,0 +1,19 @@
+.transaction-history{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
+    width: 100%;
+    background-color: white;
+}
+.transaction-history thead{
+    background-color:#00BCD5 ;
+}
+.transaction-history th{
+    padding: 10px;
+ 
+}
+.transaction-history td{
+    padding: 10px;
+    color: #313131 ;
+}
+.transaction-history tr:nth-child(even){background-color: #ECF1F3;}
+
+.transaction-history tr:hover {background-color: #ddd;}
